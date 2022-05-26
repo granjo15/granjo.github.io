@@ -1,4 +1,49 @@
 baseURL: https://granjo15.github.io/granjo.github.io/
 languageCode: en-us
-title: My New Hugo Site
+title: "cloud# show run"
 theme: "PaperMod"
+
+
+params:
+    comments: true
+    profileMode:
+        enabled: true
+        title: "<Title>" # optional default will be site title
+        subtitle: "Doing Nerd Things"
+        # imageUrl: "<image link>" # optional
+        # imageTitle: "<title of image as alt>" # optional
+        # imageWidth: 120 # custom size
+        # imageHeight: 120 # custom size
+        buttons:
+            - name: Archive
+              url: "/archive"
+            - name: Github
+              url: "https://github.com/granjo15"
+    showBreadCrumbs: true
+    showReadingTime: true
+    showShareButtons: true
+
+    socialIcons: # optional
+          - name: "linkedin"
+            url: "https://www.linkedin.com/in/jongranger1/"
+          # - name: "<platform 2>"
+          #   url: "<link2>"
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40
