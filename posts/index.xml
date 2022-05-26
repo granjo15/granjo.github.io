@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on cloud# show run</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on cloud# show run</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 May 2022 16:19:57 -0400</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First</title>
+      <link>/posts/first/</link>
+      <pubDate>Sat, 14 May 2022 16:19:57 -0400</pubDate>
+      
+      <guid>/posts/first/</guid>
+      <description>Test paragraph font paragraph text this is the code that you need to copy and paste
+{  &amp;#34;firstName&amp;#34;: &amp;#34;John&amp;#34;,  &amp;#34;lastName&amp;#34;: &amp;#34;Smith&amp;#34;,  &amp;#34;age&amp;#34;: 25 } </description>
+    </item>
+    
+  </channel>
+</rss>
